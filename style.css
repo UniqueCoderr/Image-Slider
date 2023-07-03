@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.container{
+    height: 100%;
+    width:  100%;
+    overflow: hidden;
+}
+
+.image{
+    display: flex;
+}
+
+.btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    opacity: .3;   
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.prev{
+    left: 5%;
+}
+
+.next{
+    right: 5%;
+}
